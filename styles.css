@@ -1,0 +1,168 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F5F2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    color: #FF69B4;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #FEE9F2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos de la galería de arte */
+  .art-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .art-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+  }
+  
+  /* Estilos del formulario de suscripción */
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="email"] {
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #FF69B4;
+    border: none;
+    color: #FFF;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilos de los enlaces */
+  a {
+    color: #FF69B4;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos del cuadro rosa */
+  .fancy-box {
+    padding: 20px;
+    background-color: #FFDDE0;
+    color: #333;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  /* Estilos de las curiosidades */
+  .curiosidades-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .curiosidad-box {
+    width: 30%;
+    padding: 20px;
+    background-color: #F9C1CB;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  /* Animación de logo */
+  .logo-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .logo {
+    max-width: 200px;
+    height: auto;
+    animation: breathe 4s infinite ease-in-out;
+    transform-origin: center;
+  }
+  
+  @keyframes breathe {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Resto de tus estilos CSS */
+  
+/* Estilos del carrusel */
+.slider {
+    width: 100%;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos adicionales para el carrusel (opcional) */
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #FF69B4;
+    color: #FFF;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .slick-prev {
+    left: 20px;
+  }
+  
+  .slick-next {
+    right: 20px;
+  }
+    /* Estilos para el carrusel y las imágenes */
+.art-gallery .slider {
+    width: 80%; /* Ajusta el ancho del carrusel según tus necesidades */
+    margin: 0 auto;
+  }
+  
+  .art-gallery .slider img {
+    max-width: 100%;
+    height: auto;
+  }
+  
